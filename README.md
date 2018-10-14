@@ -1,4 +1,4 @@
-# Pycharm_project
+# CNN project
 
 code from my laptop
 
