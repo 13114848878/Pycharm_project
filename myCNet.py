@@ -4,15 +4,28 @@
 #email：414319563@qq.com
 import tensorflow as tf
 import numpy as np
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Dense, Activation, Permute, Dropout
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, AveragePooling2D
+from tensorflow.keras.layers import SeparableConv2D, DepthwiseConv2D
+from tensorflow.keras.layers import BatchNormalization
+from tensorflow.keras.layers import SpatialDropout2D
+from tensorflow.keras.regularizers import l1_l2
+from tensorflow.keras.layers import Input, Flatten
+from tensorflow.keras.constraints import max_norm
+from tensorflow.keras import backend as K
 
 
 
+print('OK')
 
-class CNeTS:
+def CNeTS(shape,conv_layer_number):
 
 
-    def __init__(self,shape):
-
+# class CNeTS:
+#
+#
+#     def __init__(self,shape):
 
 
 
